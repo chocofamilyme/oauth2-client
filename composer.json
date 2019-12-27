@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Chocofamilyme\\OAuth2\\Client": "src"
+      "Chocofamilyme\\OAuth2\\Client\\": "src"
     }
   },
   "minimum-stability": "dev",
