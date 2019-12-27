@@ -1,0 +1,27 @@
+{
+  "name": "chocofamilyme/oauth2-client",
+  "description": "PHP OAuth2.0 client authentication library",
+  "keywords": [
+    "oauth",
+    "authentication"
+  ],
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "IT Chocolife.me",
+      "homepage": "https://chocolife.me"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chocofamilyme\\OAuth2\\Client": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
